@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "RENAME",
+  "version": "0.1.0",
+  "title": "RENAME",
+  "category": "text",
+  "icon": "flag",
+  "description": "Deploy articles to the permaweb with the Permafacts Truth Market block. This customizable block lets you showcase articles and invite readers to vote on their accuracy, promoting transparency and accountability in journalism.",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "text",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "rename",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

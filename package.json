@@ -1,0 +1,30 @@
+{
+	"name": "totallyNew",
+	"version": "0.1.0",
+	"description": "Deploy articles to the permaweb with the Permafacts Truth Market block. This customizable block lets you showcase articles and invite readers to vote on their accuracy, promoting transparency and accountability in journalism.",
+	"author": "Permafacts",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^25.5.1",
+		"webpack-cli": "^5.0.1"
+	},
+	"dependencies": {
+		"@facts-kit/facts-sdk": "^0.0.42",
+		"@wordpress/core-data": "^6.5.0",
+		"@wordpress/data": "^8.5.0",
+		"arweave": "^1.13.1",
+		"arweave-account": "^1.3.5",
+		"jquery": "^3.6.4",
+		"warp-contracts": "^1.2.56"
+	}
+}

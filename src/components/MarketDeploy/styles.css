@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.card {
+  min-width: 300px;
+  width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-container {
+  width: 100%;
+  min-height: 150px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+.date {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: #666666;
+}
+
+.topic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topic {
+  border: 1px solid orange;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: #666666;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1rem 0;
+}
+
+.author-image-container {
+  border: 2px solid navy;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 4rem;
+  height: 4rem;
+}
+
+.author-image {
+  width: 100%;
+  height: 100%;
+}
+
+.author-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name h4 {
+  color: #808080;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.author-name h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.content p {
+  color: #808080;
+  margin-top: 0.5rem;
+}
+
+.progress-container {
+  width: 93%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.progress-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.progress-bar-filler {
+  height: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.support-bar {
+  width: 35%;
+}
+
+.oppose-bar {
+  width: 66%;
+}
