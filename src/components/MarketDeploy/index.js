@@ -42,7 +42,6 @@ const DeployMarket = ({
 
       console.log("Wallet not connected");
       await connect(); // Connect the wallet
-
       console.log("Wallet connected");
 
       const title = wp.data
@@ -55,6 +54,7 @@ const DeployMarket = ({
       console.log("title", title);
       console.log("content", content);
 
+      // Deploy
       const result = await assert({
         use: "arweaveWallet",
         data: { title, content },
@@ -73,7 +73,7 @@ const DeployMarket = ({
 
       // Call the PHP script to update the post meta with the txId
       $.ajax({
-        url: "/wp-admin/admin-ajax.php",
+        url: "admin-ajax.php",
         type: "POST",
         data: {
           action: "arweave_tx",
