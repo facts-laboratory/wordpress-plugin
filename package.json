@@ -19,7 +19,7 @@
 		"webpack-cli": "^5.0.1"
 	},
 	"dependencies": {
-		"@facts-kit/facts-sdk": "^0.0.42",
+		"@facts-kit/facts-sdk": "^0.3.1-wp",
 		"@wordpress/core-data": "^6.5.0",
 		"@wordpress/data": "^8.5.0",
 		"arweave": "^1.13.1",
